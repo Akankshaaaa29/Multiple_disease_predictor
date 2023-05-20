@@ -1,0 +1,8 @@
+streamlit run "C:\Users\AKANKSHA\OneDrive\Desktop\disease_predictor.py"
+
+
+pip install streamlit
+pip install pickle5
+pip install streamlit-option-menu
+
+
