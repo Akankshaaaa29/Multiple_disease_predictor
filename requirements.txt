@@ -1,2 +1,1 @@
-pip install pickle5
 pip install streamlit-option-menu
