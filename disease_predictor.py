@@ -7,11 +7,11 @@ import time
 
 # loading the saved models
 
-covid_model = pickle.load(open(r"C:\Users\AKANKSHA\OneDrive\Desktop\Disease_predictor_ak\covid.pkl", 'rb'))
+covid_model = pickle.load(open("covid.pkl", 'rb'))
 
-heart_disease_model = pickle.load(open(r"C:\Users\AKANKSHA\OneDrive\Desktop\Disease_predictor_ak\heart.pkl",'rb'))
+heart_disease_model = pickle.load(open("heart.pkl",'rb'))
 
-lungs_model = pickle.load(open(r"C:\Users\AKANKSHA\OneDrive\Desktop\Disease_predictor_ak\lung_cancer.pkl", 'rb'))
+lungs_model = pickle.load(open("lung_cancer.pkl", 'rb'))
 
 
 # sidebar for navigation
