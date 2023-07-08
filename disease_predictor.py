@@ -2,7 +2,28 @@ import pickle
 import streamlit as st
 from streamlit_option_menu import option_menu
 import time
+st.set_page_config(
+    page_title="Multiple Disease Predictor",
+    page_icon="🔬",
+    layout="centered",
+    initial_sidebar_state="auto",
+)
 
+# Set the theme colors
+st.markdown(
+    """
+    <style>
+    :root {
+        --primary-color: #B21F33;
+        --background-color: #002b36;
+        --secondary-background-color: #586e75;
+        --text-color: #fafafa;
+        --font: sans-serif;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
 
 # loading the saved models
