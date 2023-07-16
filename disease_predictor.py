@@ -176,7 +176,7 @@ if (selected == 'Heart Disease Prediction'):
     
     
 
-# # Parkinson's Prediction Page
+# # lung's Prediction Page
 if (selected == "Lungs Disease Prediction"):
     
 #     # page title
